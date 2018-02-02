@@ -1,0 +1,1 @@
+SELECT emp.id, emp.fname, emp.lname, emp_phone.phone FROM emp LEFT JOIN emp_phone ON (emp.id = emp_phone.id)

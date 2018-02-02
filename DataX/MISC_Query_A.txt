@@ -1,0 +1,1 @@
+select ssn from person where RIGHT(ssn, 4) = '8977';

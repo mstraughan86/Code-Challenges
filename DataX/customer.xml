@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="customer.xsl"?>
+
+<customers>
+	<customer>
+		<fname>Bob</fname>
+		<lname>Smith</lname>
+		<phone>702-555-1212</phone>
+		<dob_y>1950</dob_y>
+		<dob_m>05</dob_m>
+		<dob_d>10</dob_d>
+		<email>bob@smith.com</email>
+		<active>TRUE</active>
+		<type>WEEKLY</type>
+	</customer>
+	<customer>
+		<fname>Mob</fname>
+		<lname>Thibs</lname>
+		<phone>702-515-1225</phone>
+		<dob_y>1999</dob_y>
+		<dob_m>01</dob_m>
+		<dob_d>13</dob_d>
+		<email>mob@thibs.com</email>
+		<active>FALSE</active>
+		<type></type>
+	</customer>
+	<customer>
+		<fname>Boms</fname>
+		<lname>Bith</lname>
+		<phone>702-112-5525</phone>
+		<dob_y>2029</dob_y>
+		<dob_m>08</dob_m>
+		<dob_d>09</dob_d>
+		<email>boms@bith.com</email>
+		<active>FALSE</active>
+	</customer>
+</customers>

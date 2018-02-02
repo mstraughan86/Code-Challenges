@@ -1,0 +1,20 @@
+CREATE TABLE emp ( 
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+fname VARCHAR(30) NOT NULL, 
+lname VARCHAR(30) NOT NULL
+); 
+
+CREATE TABLE emp_phone ( 
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+phone VARCHAR(30) NOT NULL
+); 
+
+INSERT INTO `emp` (`id`, `fname`, `lname`) VALUES ('1', 'andrew', 'm');
+INSERT INTO `emp` (`id`, `fname`, `lname`) VALUES ('2', 'mike', 'l');
+INSERT INTO `emp` (`id`, `fname`, `lname`) VALUES ('3', 'mike', 'g');
+INSERT INTO `emp` (`id`, `fname`, `lname`) VALUES ('4', 'justin', 'f');
+INSERT INTO `emp` (`id`, `fname`, `lname`) VALUES ('5', 'justin', 's');
+
+INSERT INTO `emp_phone` (`id`, `phone`) VALUES ('1', '702-123-4567');
+INSERT INTO `emp_phone` (`id`, `phone`) VALUES ('3', '603-123-4567');
+INSERT INTO `emp_phone` (`id`, `phone`) VALUES ('5', '814-123-4567');

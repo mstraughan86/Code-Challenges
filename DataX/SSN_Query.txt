@@ -1,0 +1,2 @@
+select ssn from person where SUBSTRING(ssn, -4) = '8977';
+select ssn from person where RIGHT(ssn, 4) = '8977';

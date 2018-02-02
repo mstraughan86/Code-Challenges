@@ -1,0 +1,9 @@
+CREATE TABLE person ( 
+firstname VARCHAR(30) NOT NULL, 
+lastname VARCHAR(30) NOT NULL,  
+ssn VARCHAR(9) PRIMARY KEY NOT NULL
+); 
+
+ALTER TABLE person ADD INDEX (ssn);
+INSERT INTO `person` (`firstname`, `lastname`, `ssn`) VALUES ('Mike', 'S', '614388977');
+INSERT INTO `person` (`firstname`, `lastname`, `ssn`) VALUES ('Mike', 'S II', '114388977');
